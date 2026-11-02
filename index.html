@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>猜數字 X A Y B｜版本選擇</title>
+<style>
+:root{color-scheme:dark;font-family:system-ui,'Noto Sans TC',sans-serif}*{box-sizing:border-box}body{margin:0;min-height:100vh;color:white;background:radial-gradient(ellipse at 15% 5%,#6d0db3 0%,transparent 45%),radial-gradient(ellipse at 100% 90%,#004df0 0%,transparent 45%),#100320;overflow-x:hidden}body:before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:repeating-linear-gradient(135deg,transparent 0 26px,#ffffff08 27px 28px)}main{max-width:1100px;margin:auto;padding:76px 24px 70px}.eyebrow{display:inline-block;padding:8px 16px;border:2px solid #c6ff08;border-radius:99px;background:#19112f;color:#c6ff08;font-size:13px;font-weight:900;letter-spacing:.18em;transform:rotate(-2deg)}h1{font-size:clamp(3rem,9vw,7rem);line-height:1.02;letter-spacing:-.08em;margin:28px 0 20px;text-transform:uppercase;text-shadow:6px 7px 0 #ec00a8}h1 span{color:#dbff20}.intro{max-width:670px;color:#ebdafd;font-size:clamp(16px,2vw,20px);line-height:1.65;margin-bottom:42px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}.card{position:relative;min-height:270px;border:3px solid #fff;border-radius:24px;padding:30px;box-shadow:11px 11px 0 #000;overflow:hidden;transition:transform .2s,box-shadow .2s}.card:hover{transform:translate(-4px,-4px);box-shadow:15px 15px 0 #000}.v1{background:#fe1ba9;color:#230025}.v2{background:#00e7ff;color:#001e30}.v3{background:#caff18;color:#172700}.v4{background:#a86bff;color:#210644}.card .num{font-size:14px;font-weight:1000;letter-spacing:.15em}.card h2{font-size:clamp(26px,3vw,39px);margin:20px 0 12px;letter-spacing:-.04em}.card p{font-size:16px;font-weight:650;line-height:1.6;margin:0 0 26px}.button{display:inline-block;border:3px solid currentColor;color:inherit;text-decoration:none;font-weight:900;padding:12px 22px;border-radius:13px;background:#ffffff8a}.button:focus-visible{outline:4px solid white;outline-offset:3px}.pending{display:inline-block;padding:12px 19px;border:2px dashed currentColor;border-radius:13px;font-weight:900;opacity:.82}.bubble{position:absolute;right:-24px;top:-35px;width:135px;height:135px;border:17px solid #ffffff55;border-radius:50%;pointer-events:none}footer{margin-top:38px;text-align:center;color:#d9c6f8;font-size:14px}@media(max-width:640px){main{padding:48px 18px}.grid{grid-template-columns:1fr}.card{min-height:245px;padding:24px}h1{text-shadow:4px 5px 0 #ec00a8}}
+</style>
+</head>
+<body><main>
+<div class="eyebrow">DIGITAL TECH · GAME PROJECT</div>
+<h1>GUESS<br><span>X A Y B!</span></h1>
+<p class="intro">猜數字 X A Y B｜四位數、不重複、可以 0 開頭。選一個版本開始挑戰，每一版都有不同的學習功能。</p>
+<section class="grid" aria-label="遊戲版本選擇">
+<article class="card v1"><div class="bubble"></div><div class="num">LEVEL 01 ／ 第一版</div><h2>基本挑戰</h2><p>猜四位數、A/B 判斷、除錯模式、重新開始。</p><a class="button" href="./guess-ab-v1.html">進入第一版 ↗</a></article>
+<article class="card v2"><div class="bubble"></div><div class="num">LEVEL 02 ／ 第二版</div><h2>多局歷史</h2><p>保留每局猜測歷程、結果與時間，查看已完成和未完成紀錄。</p><a class="button" href="./guess-ab-v2.html">進入第二版 ↗</a></article>
+<article class="card v3"><div class="bubble"></div><div class="num">LEVEL 03 ／ 第三版</div><h2>代號雲端存檔</h2><p>使用代號讀取遊戲資料，透過 Google 試算表儲存與續玩。</p><span class="pending">尚未部署</span></article>
+<article class="card v4"><div class="bubble"></div><div class="num">LEVEL 04 ／ 第四版</div><h2>Google 個人存檔</h2><p>登入 Google 帳號，各自保存紀錄與繼續挑戰。</p><span class="pending">尚未部署</span></article>
+</section><footer>數位科技概論 · 幾 A 幾 B 遊戲作品</footer>
+</main></body></html>
